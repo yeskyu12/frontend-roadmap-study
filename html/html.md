@@ -34,11 +34,11 @@
 
     | character | reference | description             |
     |-----------|-----------|-------------------------|
-    | &         | &amp;     | ampersand               |
-    | <         | &lt;      | less than               |
-    | >         | &gt;      | greater than            |
-    | "         | &quot;    | double quote            |
-    | '         | &apos;    | apostrophe/single quote |
+    | &         | `&amp;`   | ampersand               |
+    | <         | `&lt;`    | less than               |
+    | >         | `&gt;`    | greater than            |
+    | "         | `&quot;`  | double quote            |
+    | '         | `&apos;`  | apostrophe/single quote |
 
     _참고: [Table Genarator](https://www.tablesgenerator.com/markdown_tables#)_
 
@@ -106,21 +106,21 @@
 
 - [Text Size](https://www.w3schools.com/accessibility/accessibility_text_size.php): 사용자가 전체 인터페이스가 아닌 텍스트 크기만 확대할 수 있도록 하자.
 
-  _[chrome 브라우저 글꼴 크기 설정](chrome://settings/appearance)_
+  _(chrome 브라우저 글꼴 크기 설정: chrome://settings/appearance)_
 
   - 글꼴 키웠을 때 쏘카 앱 화면
 
     - 쏘카 앱 메인
 
-      ![img](socar-main.jpg)
+      <img src="socar-main.jpg" width="50%" />
     
     - 쏘카 플랜 메인
 
-      ![img](socar-plan-main.jpg)
+      <img src="socar-plan-main.jpg" width="50%" />
     
     - 쏘카 플랜 차량 검색
 
-      ![img](socar-plan-car-search.jpg)
+      <img src="socar-plan-car-search.jpg" width="50%" />
 
 ## [SEO](https://developers.google.com/search/docs)
 
@@ -161,5 +161,3 @@
   - alt 속성을 사용하면 시각장애인용 스크린리더가 사용될 때 이미지 대신 alt 속성 값을 읽어 이미지 파악하는 데에 도움을 줌.
 
   - 검색엔진이 이미지를 발견하면 alt 속성 안의 텍스트를 통해 인덱싱 작업을 하기 때문에 SEO에 좋음.
-
-- https: https를 사용할 경우 http를 사용했을 때보다 구글 검색엔진에서 가산점 부여됨

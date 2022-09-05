@@ -4,5 +4,5 @@
 
 - [ ] Internet
 - [x] [HTML](/html/html.md)
-- [ ] CSS
+- [ ] [CSS](/css/css.md)
 - [ ] Javascript
